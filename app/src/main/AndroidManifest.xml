@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cpe">
+        <activity
+            android:name=".WarnningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YurmHeadPhoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YurmIpadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignToBorrowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YurmLaptopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YurmUbPaGornActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProjectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NaeNumViChaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NaeNumSaCaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FutureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
